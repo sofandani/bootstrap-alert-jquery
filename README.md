@@ -6,16 +6,20 @@ See **[demo website](http://www.jqueryscript.net/demo/jQuery-Plugin-To-Create-An
 ## How to Install?
 
 ### 1. Add Bootstrap CDN CSS & notify CSS:
-> <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-> <link href="notify.css" rel="stylesheet">
+```html
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link href="notify.css" rel="stylesheet">
+```
 
 ### 2. Add jQuery CDN JS & notify JS:
-> <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-> <script src="notify.js"></script>
+```html
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="notify.js"></script>
+```
 
 ### 3. Show a basic notification with default options.
 ```javascript
-$.notify('I am a default notification box.');</code>
+$.notify('I am a default notification box.');
 ```
 
 ### 4. Show a 'Success' notification.
