@@ -1,29 +1,29 @@
 # bootstrap-alert-jquery
 Help for documentary snippet from (http://goo.gl/TGLccu | jQuery Script)
 
-See Demo:
-http://www.jqueryscript.net/demo/jQuery-Plugin-To-Create-Animated-Bootstrap-Alerts-notify/
+See **[demo website](http://www.jqueryscript.net/demo/jQuery-Plugin-To-Create-Animated-Bootstrap-Alerts-notify/)**
 
-# How to Install it:
-<h4>Add Bootstrap CDN CSS & notify CSS:</h4>
+## How to Install?
+
+### 1. Add Bootstrap CDN CSS & notify CSS:
 > <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 > <link href="notify.css" rel="stylesheet">
 
-<h4>Add jQuery CDN JS & notify JS:</h4>
+### 2. Add jQuery CDN JS & notify JS:
 > <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 > <script src="notify.js"></script>
 
-<h4>Show a basic notification with default options.</h4>
+### 3. Show a basic notification with default options.
 ```javascript
 $.notify('I am a default notification box.');</code>
 ```
 
-<h4>Show a 'Success' notification.</h4>
+Show a 'Success' notification.</h4>
 ```javascript
 $.notify('I am a success box.', 'success');
 ```
 
-<h4>All the default options.</h4>
+All the default options.</h4>
 ```javascript
 $.notify({
  
