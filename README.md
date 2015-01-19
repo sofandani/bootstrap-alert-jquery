@@ -18,12 +18,12 @@ See **[demo website](http://www.jqueryscript.net/demo/jQuery-Plugin-To-Create-An
 $.notify('I am a default notification box.');</code>
 ```
 
-Show a 'Success' notification.</h4>
+### 4. Show a 'Success' notification.
 ```javascript
 $.notify('I am a success box.', 'success');
 ```
 
-All the default options.</h4>
+### 5. All the default options.
 ```javascript
 $.notify({
  
