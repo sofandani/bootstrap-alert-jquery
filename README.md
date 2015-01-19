@@ -1,7 +1,7 @@
 # bootstrap-alert-jquery
 Help for documentary snippet from (http://goo.gl/TGLccu | jQuery Script)
 
-## SAMPLE & DEMO
+## Sample & Demo
 See **[demo website](http://www.jqueryscript.net/demo/jQuery-Plugin-To-Create-Animated-Bootstrap-Alerts-notify/)**
 
 ## How to Install?
