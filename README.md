@@ -6,12 +6,12 @@ http://www.jqueryscript.net/demo/jQuery-Plugin-To-Create-Animated-Bootstrap-Aler
 
 # How to Install it:
 <h4>Add Bootstrap CDN CSS & notify CSS:</h4>
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-<link href="notify.css" rel="stylesheet">
+<code><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"></code>
+<code><link href="notify.css" rel="stylesheet"></code>
 
 <h4>Add jQuery CDN JS & notify JS:</h4>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="notify.js"></script>
+<code><script src="//code.jquery.com/jquery-1.11.1.min.js"></script></code>
+<code><script src="notify.js"></script></code>
 
 #Show a basic notification with default options.
 <code>$.notify('I am a default notification box.');</code>
@@ -20,24 +20,24 @@ http://www.jqueryscript.net/demo/jQuery-Plugin-To-Create-Animated-Bootstrap-Aler
 <code>$.notify('I am a success box.', 'success');</code>
 
 #All the default options.
-<code>$.notify({
+<code>$.notify({</code>
  
-// custom notification message
-message: "",
+<code>// custom notification message</code>
+<code>message: "",</code>
  
-// 'default', 'info', 'error', 'warning', 'success'
-status: "default",
+<code>// 'default', 'info', 'error', 'warning', 'success'</code>
+<code>status: "default",</code>
  
-// timeout in ms
-timeout: 5000,
+<code>// timeout in ms</code>
+<code>timeout: 5000,</code>
  
-// 'top-center','top-right', 'bottom-right', 'bottom-center', 'bottom-left'
-pos: 'top-center',
+<code>// 'top-center','top-right', 'bottom-right', 'bottom-center', 'bottom-left'</code>
+<code>pos: 'top-center',</code>
  
-// z-index style for alert container
-zIndex: 10400,
+<code>// z-index style for alert container</code>
+<code>zIndex: 10400,
  
-// Function to call on alert close
-onClose: function() {}
+<code>// Function to call on alert close</code>
+<code>onClose: function() {}</code>
  
-});</code>
+<code>});</code>
