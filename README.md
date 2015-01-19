@@ -20,24 +20,28 @@ http://www.jqueryscript.net/demo/jQuery-Plugin-To-Create-Animated-Bootstrap-Aler
 <code>$.notify('I am a success box.', 'success');</code>
 
 #All the default options.
-<code>$.notify({</code>
+<code>
+```javascript
+$.notify({
  
-<code>// custom notification message</code>
-<code>message: "",</code>
+// custom notification message
+message: "",
  
-<code>// 'default', 'info', 'error', 'warning', 'success'</code>
-<code>status: "default",</code>
+// 'default', 'info', 'error', 'warning', 'success'
+status: "default",
  
-<code>// timeout in ms</code>
-<code>timeout: 5000,</code>
+// timeout in ms
+timeout: 5000,
  
-<code>// 'top-center','top-right', 'bottom-right', 'bottom-center', 'bottom-left'</code>
-<code>pos: 'top-center',</code>
+// 'top-center','top-right', 'bottom-right', 'bottom-center', 'bottom-left'
+pos: 'top-center',
  
-<code>// z-index style for alert container</code>
-<code>zIndex: 10400,
+// z-index style for alert container
+zIndex: 10400,
  
-<code>// Function to call on alert close</code>
-<code>onClose: function() {}</code>
+// Function to call on alert close
+onClose: function() {}
  
-<code>});</code>
+});
+```
+</code>
