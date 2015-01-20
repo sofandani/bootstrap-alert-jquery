@@ -31,24 +31,27 @@ $.notify('I am a success box.', 'success');
 ### 5. All the default options.
 ```javascript
 $.notify({
- 
-// custom notification message
-message: "",
- 
-// 'default', 'info', 'error', 'warning', 'success'
-status: "default",
- 
-// timeout in ms
-timeout: 5000,
- 
-// 'top-center','top-right', 'bottom-right', 'bottom-center', 'bottom-left'
-pos: 'top-center',
- 
-// z-index style for alert container
-zIndex: 10400,
- 
-// Function to call on alert close
-onClose: function() {}
+    
+   // custom notification message
+   message: "",
+    
+   // 'default', 'info', 'error', 'warning', 'success'
+   status: "default",
+    
+   // timeout in ms
+   timeout: 5000,
+    
+   // 'top-center','top-right', 'bottom-right', 'bottom-center', 'bottom-left'
+   pos: 'top-center',
+    
+   // z-index style for alert container
+   zIndex: 10400,
+    
+   // Function to call on alert close
+   onClose: function()
+   {
+     // Here is callback function
+   }
  
 });
 ```
